@@ -51,9 +51,9 @@ export type GetModelsParams = {
 };
 
 export type CategoryPageProps = {
-  params: {
+  params: Promise<{
     categoryName: string;
-  };
+  }>;
 };
 
 export type NavLinkProps = {
